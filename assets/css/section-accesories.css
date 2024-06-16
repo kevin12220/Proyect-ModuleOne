@@ -1,26 +1,27 @@
 .section_accesories {
-  height: 800px;
-  background: linear-gradient(rgb(0 275 213 / -44%), rgb(0 71 225 / 110%)), 
-  url(https://gmedia.playstation.com/is/image/SIEPDC/monster-hunter-world-wallpaper-05-ps4-us-10dec18?$1600px$);
+  height: 843px;
+  background: linear-gradient(to bottom, rgb(12 8 8 / 55%), rgb(12 8 8 / 26%)), url(../img/3111862.jpg);
   background-blend-mode: overlay;
   background-size: cover;
-  padding: 0;
+  padding: 96px 0 0 0 ; 
   margin: 0;
 }
 .section_title {
   text-align: center;
-  color: bisque;
+  color: #d63616;
   font-size: 31px;
-  text-shadow: 0 2px cornflowerblue;
-  padding: 19px 0 0 0 ;
-  margin: 0;
+  text-shadow: 0 2px #fdff00;;
+  padding: 9px 16px 9px;
+  margin: 1px 649px 0px 657px;
+  box-shadow: rgba(243, 5, 5, 0.57) 1px 3px 68px 40px;
+  border-radius: 36px;
 }
 .accesories_container {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   height: 100%;
-  color: bisque;
+  color: #d6bb06;
 }
 .accesories_container div {
   margin-top: 28px;
@@ -30,6 +31,7 @@
     background-color: red;
     color: aquamarine;
     font-size: 15px;
+    border-radius: 25px;
 }
 .accesories_img {
   width: 170px;
