@@ -1,0 +1,49 @@
+#section_sesion {
+    width: 100%;
+    height: 750px;
+    background-color: black;
+    margin: 0;
+    padding-top: 107px;
+  }
+  #form {
+    color: antiquewhite;
+    font-size: 20px;
+    margin: 156px 0 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .section_title-four {
+    text-align: center;
+    color: #00ffea;
+    font-size: 20px;
+    padding: 9px 16px 9px;
+    margin: 1px 192px 0px 194px;
+    box-shadow: rgb(32 168 220 / 55%) 1px 3px 68px 40px;
+  }
+  .section_sesion-div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 227px;
+}
+  .section_sesion-img {
+    margin-top: 80px;
+    width: 394px;
+  }
+  .section_sesion-button {
+    color: #ffeb00;
+    padding: 10px;
+    background-color: #986ae9;
+    margin: 69px 0px 0px 491px;
+    font-size: 28px;
+    border-radius: 32px;
+  }
+  #form label{
+      color: #ecc411;
+  }
+  #name {
+    display: flex;
+  }
+  #password {
+    display: flex;
+  }

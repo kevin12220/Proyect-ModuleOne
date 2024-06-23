@@ -1,47 +1,70 @@
-.section_accesories {
-  height: 843px;
-  background: linear-gradient(to bottom, rgb(12 8 8 / 55%), rgb(12 8 8 / 26%)), url(../img/3111862.jpg);
+#section_accesories {
+  height: 745px;
+  background: linear-gradient(to bottom, rgb(12 8 8 / 55%), rgb(12 8 8 / 26%)),
+    url(../img/3111862.jpg);
+  box-shadow: rgb(111 245 348 / 45%) 1px 3px 68px 40px;
   background-blend-mode: overlay;
   background-size: cover;
-  padding: 96px 0 0 0 ; 
+  padding: 96px 0 0 0;
   margin: 0;
+}
+#section_accesories a {
+  color: antiquewhite;
+  margin: -80px 0px 0px 125px;
+}
+.section_accesories-img {
+  margin: -176px 0px -49px -168px;
+  width: 54px;
+  height: 48px;
 }
 .section_title {
   text-align: center;
   color: #d63616;
-  font-size: 31px;
-  text-shadow: 0 2px #fdff00;;
+  font-size: 20px;
   padding: 9px 16px 9px;
-  margin: 1px 649px 0px 657px;
+  margin: 20px 129px 0px 159px;
   box-shadow: rgba(243, 5, 5, 0.57) 1px 3px 68px 40px;
-  border-radius: 36px;
+}
+.Baground_color {
+  background-color: #d636164d;
+  padding: 7px;
+  border-radius: 46px;
 }
 .accesories_container {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   height: 100%;
-  color: #d6bb06;
+  color: #eae9df;
 }
 .accesories_container div {
-  margin-top: 28px;
+  margin: 29px 0 0 0;
   text-align: center;
 }
-.accesories_container button{
-    background-color: red;
-    color: aquamarine;
-    font-size: 15px;
-    border-radius: 25px;
+.accesories_container h2 {
+  font-size: 17px;
+}
+.accesories_container button {
+  color: black;
+  font-size: 15px;
+  border-radius: 25px;
+  background-color: #eea400;
 }
 .accesories_img {
-  width: 170px;
-  height: 150px;
+  width: 151px;
+  height: 123px;
   padding: 33px;
   animation: moveAndScale 3s infinite;
 }
 
 @keyframes moveAndScale {
-    0% { transform: translateX(0) scale(1); }
-    50% { transform: translateX(2px) scale(0.5); }
-    100% { transform: translateX(0) scale(1); }
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  50% {
+    transform: translateX(2px) scale(0.5);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
 }
