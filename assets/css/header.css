@@ -9,6 +9,7 @@ header {
   transition: all 500ms ease-out;
   position: static;
   cursor: pointer;
+
 }
 .bx bxs-joystick {
   font-family: "Font Awesome 6 Brands";

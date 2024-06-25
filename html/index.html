@@ -41,7 +41,7 @@
         <li><a class="grid_nav-registrate" href="#section_registrer">Registrate</a></li>
         <li><a class="grid_nav-sesion" href="#section_sesion">Iniciar Sesión</a></li>
         <li>
-          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          <a id="carrito" href=".#"><i class="fa-solid fa-cart-shopping"></i></a>
         </li>
       </ul>
     </nav>
@@ -64,7 +64,7 @@
       <h2 class="section_title">Accesorios</h2>
       <div class="accesories_container">
         <div class="controls">
-          <div class="Baground_color">
+          <div  data-id="0" data-img="../assets/img/DUALSENSE-5L-removebg-preview.png" data-name="Control ihnalambrico Celeste" data-price="125000" class="Baground_color">
             <img
               class="accesories_img"
               src="../assets/img/DUALSENSE-5L-removebg-preview.png"
@@ -72,9 +72,9 @@
             />
             <h2>Control ihnalambrico Celeste</h2>
             <p>$125.000</p>
-            <button>Comprar</button>
+            <button onclick="addToCart(this)" class="button">Comprar</button>
           </div>
-          <div class="Baground_color">
+          <div data-id="1" data-img="../assets/img/Dual-Sense-Cyberpunk-2077-removebg-preview.png" data-name="Control ihnalambrico de CyberPunk" data-price="125000" class="Baground_color">
             <img
               class="accesories_img"
               src="../assets/img/Dual-Sense-Cyberpunk-2077-removebg-preview.png"
@@ -82,21 +82,21 @@
             />
             <h2>Control ihnalambrico de CyberPunk</h2>
             <p>$125.000</p>
-            <button>Comprar</button>
+            <button onclick="addToCart(this)" class="button">Comprar</button>
           </div>
         </div>
         <div class="desks">
-          <div class="Baground_color">
+          <div data-id="2" data-img="../assets/img/D_807978-MLU45307512342_032021-O-removebg-preview.png" data-name="Escritorio Simple" data-price="849999" class="Baground_color">
             <img
               class="accesories_img"
               src="../assets/img/D_807978-MLU45307512342_032021-O-removebg-preview.png"
               alt="Controlazul"
             />
             <h2>Escritorio Simple</h2>
-            <p>$849..999</p>
-            <button>Comprar</button>
+            <p>$849.999</p>
+            <button onclick="addToCart(this)" class="button">Comprar</button>
           </div>
-          <div class="Baground_color">
+          <div data-id="3" data-img="../assets/img/Mesa-Gamer-ME4161-Negro-Azul-Ambiente-Abba-Muebles-600x600-removebg-preview.png" data-name="Escritorio con cajones" data-price="1100000" class="Baground_color">
             <img
               class="accesories_img"
               src="../assets/img/Mesa-Gamer-ME4161-Negro-Azul-Ambiente-Abba-Muebles-600x600-removebg-preview.png"
@@ -104,11 +104,11 @@
             />
             <h2>Escritorio con cajones</h2>
             <p>$1.100.000</p>
-            <button>Comprar</button>
+            <button onclick="addToCart(this)" class="button">Comprar</button>
           </div>
         </div>
         <div class="headphones">
-          <div class="Baground_color">
+          <div data-id="4"  data-img="../assets/img/Logitech-G-G733-3-removebg-preview.png" data-name="Audifonos Bagrouth" data-price="99999" class="Baground_color">
             <img
               class="accesories_img"
               src="../assets/img/Logitech-G-G733-3-removebg-preview.png"
@@ -116,9 +116,9 @@
             />
             <h2>Audifonos Bagrouth</h2>
             <p>$99.999</p>
-            <button>Comprar</button>
+            <button onclick="addToCart(this)" class="button">Comprar</button>
           </div>
-          <div class="Baground_color">
+          <div data-id="5" data-img="../assets/img/OIP-removebg-preview.png" data-name="Audifonos Bagrouth" data-name="Audifonos Version" data-price="102000" class="Baground_color">
             <img
               class="accesories_img"
               src="../assets/img/OIP-removebg-preview.png"
@@ -126,11 +126,11 @@
             />
             <h2>Audifonos Version</h2>
             <p>$102.000</p>
-            <button>Comprar</button>
+            <button onclick="addToCart(this)" class="button">Comprar</button>
           </div>
         </div>
-        <div class="chairs">
-          <div class="Baground_color">
+        <div  class="chairs">
+          <div data-id="6" data-img="../assets/img/silla_gamer_blanca-removebg-preview.png" data-name="Silla de colores variados" data-price="256000" class="Baground_color">
             <img
               class="accesories_img"
               src="../assets/img/silla_gamer_blanca-removebg-preview.png"
@@ -138,9 +138,9 @@
             />
             <h2>Silla de colores variados</h2>
             <p>$256.000</p>
-            <button>Comprar</button>
+            <button onclick="addToCart(this)" class="button">Comprar</button>
           </div>
-          <div class="Baground_color">
+          <div data-id="7" data-img="../assets/img/silla_gamer_morada-removebg-preview.png" data-name="Silla de color purpura" data-price="238000" class="Baground_color">
             <img
               class="accesories_img"
               src="../assets/img/silla_gamer_morada-removebg-preview.png"
@@ -148,11 +148,11 @@
             />
             <h2>Silla de color purpura</h2>
             <p>$238.000</p>
-            <button>Comprar</button>
+            <button onclick="addToCart(this)" class="button">Comprar</button>
           </div>
         </div>
         <div class="Mouse">
-          <div class="Baground_color">
+          <div data-id="8" data-img="../assets/img/mouseone-removebg-preview (1).png" data-name="Mouse x70" data-price="256000" class="Baground_color">
             <img
               class="accesories_img"
               src="../assets/img/mouseone-removebg-preview (1).png"
@@ -160,9 +160,9 @@
             />
             <h2>Mouse x70</h2>
             <p>$256.000</p>
-            <button>Comprar</button>
+            <button onclick="addToCart(this)" class="button">Comprar</button>
           </div>
-          <div class="Baground_color">
+          <div data-id="9" data-img="../assets/img/mousetwo-removebg-preview.png" data-img="../assets/img/mousetwo-removebg-preview.png" data-name="Mouse x29" data-price="238000" class="Baground_color">
             <img
               class="accesories_img"
               src="../assets/img/mousetwo-removebg-preview.png"
@@ -170,7 +170,7 @@
             />
             <h2>Mouse x29</h2>
             <p>$238.000</p>
-            <button>Comprar</button>
+            <button onclick="addToCart(this)" class="button">Comprar</button>
           </div>
         </div>
       </div>
@@ -233,7 +233,7 @@
       <button class="section_registrer-button">Enviar</button>
     </section>
     <section id="section_sesion">
-      <h2 class="section_title-four">Ingresa</h2>
+      <h2 class="section_title-four">Inicio de sesión</h2>
       <div class="section_sesion-div">
         <div><img class="section_sesion-img" src="../assets/img/Diablo-IV-Data-precos-e-mais-removebg-preview.png" alt=""></div>
         <form id="form" action="">
@@ -245,7 +245,8 @@
           <br>
         </form>  
       </div>
-      <button class="section_sesion-button">Enviar</button>
+      <button class="section_sesion-button">Entrar  >
+      </button>
     </section>
     <footer id="footer">
       <div class="footer_div">
@@ -309,5 +310,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="../assets/Js/shopping-cart.js"></script>
   </body>
 </html>

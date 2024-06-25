@@ -14,11 +14,11 @@
 }
 .section_title-three {
   text-align: center;
-  color: #00ffea;
+  color: #14deb5;
   font-size: 20px;
   padding: 9px 16px 9px;
   margin: 1px 192px 0px 194px;
-  box-shadow: rgb(32 168 220 / 55%) 1px 3px 68px 40px;
+  box-shadow: rgba(4, 235, 174, 0.55) 1px 3px 68px 40px;
 }
 .section_registrer-div {
   display: grid;
@@ -34,7 +34,7 @@
   padding: 10px;
   background-color: #986ae9;
   margin: 69px 0px 0px 950px;
-  font-size: 35px;
+  font-size: 28px;
   border-radius: 32px;
 }
 #form label{

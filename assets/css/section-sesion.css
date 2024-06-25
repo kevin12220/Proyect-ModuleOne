@@ -14,11 +14,11 @@
   }
   .section_title-four {
     text-align: center;
-    color: #00ffea;
+    color: #1988f0;
     font-size: 20px;
     padding: 9px 16px 9px;
     margin: 1px 192px 0px 194px;
-    box-shadow: rgb(32 168 220 / 55%) 1px 3px 68px 40px;
+    box-shadow: rgba(40, 59, 229, 0.55) 1px 3px 68px 40px;
   }
   .section_sesion-div {
     display: flex;

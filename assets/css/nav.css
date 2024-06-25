@@ -43,3 +43,12 @@ nav {
 .grid_nav-sesion{
   color: rgb(255, 255, 0);
 }
+@media (max-width: 426px) {
+  .header {
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--dark-bg);
+    width: 100%;
+    padding: 8px;
+  }
+}
