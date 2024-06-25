@@ -20,7 +20,7 @@ shoppingCart.forEach((shopping) => {
                     </div>
                 </div>
         </div>
-    </div>`
+    </div>`;
 
   ProductList.appendChild(cart);
 });

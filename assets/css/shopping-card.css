@@ -83,19 +83,19 @@ nav {
   display: flex;
   justify-content: center;
 }
-.title{
-    font-size: 20px;
-    justify-content: center;
-    color: #ee00ff;
-    padding: 15px;
-    background-color: #50dfd7;
-    border-radius: 12px;
+.title {
+  font-size: 20px;
+  justify-content: center;
+  color: #ee00ff;
+  padding: 15px;
+  background-color: #50dfd7;
+  border-radius: 12px;
 }
-.price{
-    font-size: 20px;
-    text-align: center;
-    color: #011cea;
-    padding: 15px;
-    background-color: #dc65e7;
-    border-radius: 12px;
+.price {
+  font-size: 20px;
+  text-align: center;
+  color: #011cea;
+  padding: 15px;
+  background-color: #dc65e7;
+  border-radius: 12px;
 }
