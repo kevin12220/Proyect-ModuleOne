@@ -22,7 +22,7 @@ const addToCart = (button) => {
 cartButton.addEventListener("click", () => {
   const jsonCart = JSON.stringify(shoppingCart);
   if (shoppingCart.length == 0) {
-    alert("Selecciona al menos un producto");
+    alert("Selecciona al menos un producto de la sección Accesorios");
   } else {
     localStorage.setItem("cart", jsonCart);
     window.open("./../html/cart.html");
